@@ -11,6 +11,6 @@ repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimiz
 ### Initiate build:
 ```bash
 source build/envsetup.sh
-lunch revengeos_<devicecodename>-user
+lunch phrox_<devicecodename>-userdebug
 make bacon
 ```
