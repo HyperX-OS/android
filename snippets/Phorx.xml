@@ -51,7 +51,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ros" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ros" revision="r11.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="ros" />
-  <project path="device/revengeos/sepolicy" name="android_device_revengeos_sepolicy" remote="ros" />
+  <project path="device/Phrox-OS/sepolicy" name="android_device_Phrox-OS_sepolicy" remote="ros" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ros" />
