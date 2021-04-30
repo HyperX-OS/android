@@ -830,9 +830,3 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Phorx-OS -->
-  <include name="snippets/remove.xml" />
-  <include name="snippets/POS.xml" />
-  <include name="snippets/hardware.xml" />
-  <include name="snippets/others.xml" />
-</manifest>
