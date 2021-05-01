@@ -23,11 +23,7 @@
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/external/arm-optimized-routines" />
 
-  <!-- ART -->
-  <project path="art" name="android_art" remote="ros" />
 
-  <!-- bionic -->
-  <project path="bionic" name="android_bionic" remote="ros" />
 
   <!-- build -->
   <project path="build/make" name="android_build" remote="ros" >
@@ -60,7 +56,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
 
   <!-- hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="ros" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="github" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ros" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="github" revision="lineage-18.1" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
@@ -73,20 +69,6 @@
   <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  
-  <!-- packages -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ros" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="ros" />
-  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" remote="github" revision="lineage-17.1" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1" />
-  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-18.1" />
-  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" remote="github" revision="lineage-17.1" />
-  <project path="packages/apps/RevengeLauncher" name="android_packages_apps_RevengeLauncher" remote="ros" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ros" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="ros" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ros" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ros" />
 
   <!-- prebuilts -->
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" remote="github" revision="lineage-18.1" clone-depth="1" />
@@ -96,10 +78,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-18.1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
-  <!-- recovery -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="pos" />
-  
-  <project path="pos-sdk" name="android_revengeos-sdk" remote="pos" />
 
   <!-- system -->
   <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="lineage-18.1" />
@@ -113,16 +91,15 @@
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-18.1" />
 
   <!-- Phorx vendor -->
-  <project path="vendor/Phorx" name="android_vendor_Phrox" remote="pos" />
-  <project path="vendor/Phorx-Ui" name="android_vendor_Phroxui" remote="pos" />
+  <project path="vendor/Phorx" name="android_vendor_Phrox" remote="github" />
   
   <!-- Qualcomm vendor repos -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="ros" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="github" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="ros"/>
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="github"/>
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="ros" />
