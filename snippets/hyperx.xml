@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Repos of Phorx-OS -->
+<!-- Repos of HYPERX -->
 <manifest>
   <remote  name="pos"
            fetch="https://github.com/Phorx-OS"
@@ -90,8 +90,8 @@
   <!-- tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-18.1" />
 
-  <!-- Phorx vendor -->
-  <project path="vendor/Phorx" name="android_vendor_Phrox" remote="github" />
+  <!-- HYPERX vendor -->
+  <project path="vendor/hyperx" name="android_vendor_hyperx" remote="github" />
   
   <!-- Qualcomm vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="github" />
