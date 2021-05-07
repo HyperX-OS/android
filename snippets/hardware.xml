@@ -2,7 +2,7 @@
 <!-- Repos of RevengeOS -->
 <manifest>
 
-  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="ros" />
+  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" />
 
   <!-- CAF HALs -->
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" >
