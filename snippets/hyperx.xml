@@ -2,12 +2,12 @@
 <!-- Repos of HYPERX -->
 <manifest>
   <remote  name="pos"
-           fetch="https://github.com/Phorx-OS"
+           fetch="https://github.com/HyperX-OS"
            revision="11"
            sync-j="16" />
 
   <remote  name="devices"
-           fetch="https://github.com/Phorx-Devices"
+           fetch="https://github.com/HyperX-Devices"
            revision="r11.0" />
 
   <remote  name="github"
@@ -43,17 +43,8 @@
   <project path="tools/metalava" name="LineageOS/android_tools_metalava" remote="github" revision="lineage-18.1" />
   
   
-  <!-- device -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ros" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ros" revision="r11.0-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="ros" />
-  <project path="device/Phrox-OS/sepolicy" name="android_device_Phrox-OS_sepolicy" remote="ros" />
 
-  <!-- frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="ros" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
+  
 
   <!-- hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="github" />
@@ -70,22 +61,8 @@
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
 
-  <!-- prebuilts -->
-  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" remote="github" revision="lineage-18.1" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-18.1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-18.1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-18.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-18.1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
-
-  <!-- system -->
-  <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="lineage-18.1" />
-  <project path="system/core" name="android_system_core" remote="ros" />
-  <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" remote="github" revision="lineage-18.1" />
-  <project path="system/netd" name="LineageOS/android_system_netd" remote="github" revision="lineage-18.1" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
-  <project path="system/vold" name="android_system_vold" remote="ros" />
+  
 
   <!-- tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-18.1" />
