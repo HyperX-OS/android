@@ -14,4 +14,4 @@ source build/envsetup.sh
 lunch hyper_<devicecodename>-userdebug
 make -j4
 ```
-This is initial Burild So it will be same as AOSP A12 and on Build Directory it will not give you ZIP file of rom instead it will give you Images.
+This is initial Build, So it will be same as AOSP A12 and on Build Directory it will not give you ZIP file of rom instead it will give you Images.
