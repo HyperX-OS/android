@@ -2,7 +2,7 @@
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 ### Initialize your local repository using this command:
 ```bash
-repo init -u https://github.com/HyperX-OS/android -b 11
+repo init -u https://github.com/HyperX-OS/android -b 12
 ```
 ### Sync the ROM sources using this command:
 ```bash
