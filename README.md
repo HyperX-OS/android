@@ -12,5 +12,6 @@ repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimiz
 ```bash
 source build/envsetup.sh
 lunch hyper_<devicecodename>-userdebug
-make bacon
+make -j4
 ```
+This is initial Burild So it will be same as AOSP A12 and on Build Directory it will not give you ZIP file of rom instead it will give you Images.
